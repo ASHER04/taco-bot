@@ -99,7 +99,7 @@ Bot.initEvents = function() {
 };
 
 Bot.login = function() {
-	this.bot.login(process.env.bot_token);
+	this.bot.login(Files.data.settings.token);
 };
 
 Bot.onReady = function() {
